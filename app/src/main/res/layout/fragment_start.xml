@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".StartFragment">
+
+    <data>
+        <variable
+            name="startFragment"
+            type="com.example.cupcake.StartFragment" />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bakutek">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/side_margin">
+
+            <ImageView
+                android:layout_width="@dimen/image_size"
+                android:layout_height="@dimen/image_size"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="90dp"
+                android:importantForAccessibility="no"
+                android:scaleType="center"
+                app:srcCompat="@drawable/cupcake" />
+
+            <TextView
+                android:fontFamily="@font/gellatioregular"
+                android:textSize="24sp"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="-30dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/side_margin"
+                android:text="Happy Birthday to You"
+                android:textAppearance="?attr/textAppearanceHeadline4"
+                android:textColor="@color/white" />
+
+            <Button
+                android:fontFamily="@font/mallentregular"
+                android:textSize="18sp"
+                android:id="@+id/order_one_cupcake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:minWidth="@dimen/order_cupcake_button_width"
+                android:text="@string/one_cupcake" />
+
+            <Button
+                android:fontFamily="@font/mallentregular"
+                android:textSize="18sp"
+                android:id="@+id/order_six_cupcakes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_between_elements"
+                android:minWidth="@dimen/order_cupcake_button_width"
+                android:text="test" />
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

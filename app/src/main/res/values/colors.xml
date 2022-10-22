@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="pink_400">#536DFE</color>
+    <color name="pink_khusus">#0091EA</color>
+    <color name="pink_600">#2979FF</color>
+    <color name="pink_950">#01579B</color>
+    <color name="purple_400">#536DFE</color>
+    <color name="purple_700">#3D5AFE</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gondolan">#FFFFFFFF</color>
+    <color name="bakutek">#359DF1</color>
+</resources>
