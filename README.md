@@ -10,4 +10,4 @@ Pre-requisites
 
 Getting Started
 ---------------
-Simply cost
+Simply costumize the interface text in fragment_start.xml and replace the audio to play in app/src/main/res/raw
